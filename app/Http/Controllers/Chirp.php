@@ -34,7 +34,7 @@ class Chirp extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(rc $rc)
+    public function show()
     {
         //
     }
@@ -42,7 +42,7 @@ class Chirp extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(rc $rc)
+    public function edit()
     {
         //
     }
@@ -50,7 +50,7 @@ class Chirp extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, rc $rc)
+    public function update(Request $request)
     {
         //
     }
@@ -58,7 +58,7 @@ class Chirp extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(rc $rc)
+    public function destroy()
     {
         //
     }
